@@ -1,0 +1,33 @@
+- model: orders.Order
+  pk: 34992
+  fields:
+    customer_name: Jane Smith
+    created_at: '2019-06-24T09:00:00+00:00'
+- model: orders.LineItem
+  pk: 1
+  fields:
+    order_id: 34992
+    item_id: 1
+    price: 24.99
+    quantity: 2
+- model: orders.LineItem
+  pk: 2
+  fields:
+    order_id: 34992
+    item_id: 2
+    price: 12
+    quantity: 1
+- model: orders.LineItem
+  pk: 3
+  fields:
+    order_id: 34992
+    item_id: 3
+    price: 16.36
+    quantity: 2
+- model: orders.LineItem
+  pk: 4
+  fields:
+    order_id: 34992
+    item_id: 4
+    price: 3.56
+    quantity: 6
