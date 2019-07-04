@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Winterfell Dry Cleaners - Order id {{ order_id }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1>Winterfell Dry Cleaners</h1>
+
+            <div class="row">
+                <div class="col-md">
+                    <div class="input-group">
+                        <form>
+
+                            <input class=" rounded-5" name="order_id" type="search" placeholder="order id" value="{{ order_id }}">
+                            <button class="btn-grey">display</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+{% block content %}
+
+{% endblock %}
+</div>
+</body>
+</html>
