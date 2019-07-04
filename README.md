@@ -1,11 +1,11 @@
-#I Hate Ironing Tech Test
-##Setup
+# I Hate Ironing Tech Test
+## Setup
 
 To build the django application (incl. migrations and fixture loading), run the following:
 
 ```make setup```
 
-##Execution
+## Execution
 
 To run the web application using the Django dev server, run the folowing:
 
@@ -17,7 +17,7 @@ Go to the folowing url:
 
 Search for order id **34992**
 
-##Tests
+## Tests
 To run the test suite, run the following:
 
 ```make test```
